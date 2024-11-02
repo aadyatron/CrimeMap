@@ -31,7 +31,7 @@ def graphs_year_choice(df,x):
     yn=input("Do you wish to see the graphical representation of the above data? (y/n): ")
     if yn=='y' or yn=='Y':
         year=input("enter year (2020 to 2022): ")
-        if year in [2020,2021,2022]:
+        if year in ['2020','2021','2022']:
             mypy.bar(df[x],df[year])
             mypy.xticks(rotation=45,ha='right',fontsize=7)
             mypy.show()
