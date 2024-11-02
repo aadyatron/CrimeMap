@@ -20,12 +20,6 @@ def main_menu():
         print(f"     {u}.{v}")
     print("")
 
-    '''opt=int(input("Enter the page number to continue: "))
-    if opt not in [i for i in range(1,8)]:
-        print("\nInvalid input, please enter a number between 1-6.\n\n")
-        return main_menu()'''
-
-
 def page_maker(page_title,dict):
     print("\n","-"*25,page_title,"-"*25,"\n")
     
