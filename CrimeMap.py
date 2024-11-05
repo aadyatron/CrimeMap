@@ -8,7 +8,7 @@ print("-"*48," CrimeMap ","-"*48)
 print("\nWelcome to CrimeMap - an intuitive platform to explore crime data, trends, and patterns by location and time,\ndelivering clear, data-driven insights!\n")
 
 def main_menu():
-    print("                                          - MENU -                                         ")
+    print("\t\t\t\t\t\t- MENU -")
     options={
         1:"View Overall Crime Statistics",
         2:"IPC Crimes Over The Years",
